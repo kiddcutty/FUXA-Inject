@@ -10,8 +10,8 @@ Run the shell script
 You will be prompted for the FUXA URL which should look something like ```http://10.10.10.10:1881```  
 Next you will select the action you would like to accomplish
 ```
-1) Get Value
-2) Set Value
+1) Get Tag
+2) Set Tag
 ```
-If you selected ```Get Value``` the script will make an API call to FUXA and return the tag value.
-If you selected ```Set Value``` the script will ask for the value you would like to set. Once entered the script will make an API call to set the tag value and return the current value.
+If you selected ```Get Tag``` the script will give a list of tag options to choose from. Once a tag has been selected the script will make an API call to FUXA and return the tag value.
+If you selected ```Set Tag``` the script will give a list of tag options to choose from then will ask for the value you would like to set. Once entered the script will make an API call to set the tag value and return the current value.
