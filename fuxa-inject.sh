@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Title: FUXA-Inject
+# Author: Jesse Cutshall (@kiddcutty)
+# Description: Retrieve or change device tag values in FUXA instance.
+
+
 function create_array {
 curl -s -H "Content-Type: application/json" "${BASE_URL}${PROJECT_PATH}" > /tmp/project
 
